@@ -1,0 +1,40 @@
+h1,
+h2 {
+  margin: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background: #2b2726;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-logo {
+  height: 40px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-right {
+  flex: 1;
+  text-align: left;
+}
+
+.header-right h1, .header-right h3 {
+  margin: 0;
+}
